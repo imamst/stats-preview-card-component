@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>HTML & CSS Practice</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="card-wrapper">
+        <article class="card">
+            <div class="card__image-container">
+                <picture class="card__image">
+                    <source srcset="images/image-header-desktop.jpg" media="(min-width: 768px)">
+                    <img src="images/image-header-mobile.jpg" alt="Working image">
+                    <div class="card__image-overlay"></div>
+                </picture>
+            </div>
+            <div class="card__content">
+                <header class="card__header">
+                    <h1 class="card__title title">
+                        Get <span class="title_accent">insights</span> that help your business grow.
+                    </h1>
+                </header>
+                <p class="card__desc">
+                    Discover the benefits of data analytics and make better decisions regarding revenue, customer experience,  and overall efficiency.
+                </p>
+                <div class="card__stat statistic">
+                    <div class="statistic__item">
+                        <b class="statistic__item-number">10k+</b>
+                        <span class="statistic__item-heading">COMPANIES</span>
+                    </div>
+                    <div class="statistic__item">
+                        <b class="statistic__item-number">314</b>
+                        <span class="statistic__item-heading">TEMPLATES</span>
+                    </div>
+                    <div class="statistic__item">
+                        <b class="statistic__item-number">12M+</b>
+                        <span class="statistic__item-heading">QUERIES</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
